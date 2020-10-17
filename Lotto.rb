@@ -5,6 +5,7 @@ class SuperLotto
         @punktacja = 0
         gra
     end
+    
     def gra
         powitanie
         until @odpowiedz == "koniec"
